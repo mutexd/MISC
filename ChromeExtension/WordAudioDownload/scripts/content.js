@@ -11,7 +11,8 @@ function searchAudioUrl () {
         console.log("url is: " + audioSrc);
         return audioSrc;
     }
-    return null;
+  }
+  return null;
 }
 
 chrome.runtime.onMessage.addListener(
